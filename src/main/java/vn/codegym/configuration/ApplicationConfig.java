@@ -93,7 +93,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
         dataSource.setUrl("jdbc:mysql://localhost:3306/module4");
         dataSource.setUsername("codegym");
         dataSource.setPassword("codegym");
-        return (javax.sql.DataSource) dataSource;
+        return dataSource;
     }
 
     @Bean
